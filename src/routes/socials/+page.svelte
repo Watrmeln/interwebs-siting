@@ -13,43 +13,43 @@
     </h2>
 
     <div
-        class="flex flex-col lg:flex-row gap-3 md:gap-7 items-center justify-center pt-5 md:pt-0"
+        class="gap-3 md:gap-7 pt-5 md:pt-0 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6"
     >
         <a
             href="https://www.youtube.com/@railsand"
             class="bg-accent hover:bg-[#ff0332] hover:scale-110 transition-all duration-500 ease-in-out flex items-center justify-center rounded-3xl p-2 md:py-2 px-10"
         >
-            <img class="w-[5rem]" src="/img/yt.svg" alt="YouTube" />
+            <img class="w-16" src="/img/yt.svg" alt="YouTube" />
         </a>
         <a
             href="https://bsky.app/profile/watrmeln.bsky.social"
             class="bg-accent hover:bg-[#0085ff] hover:scale-110 transition-all duration-500 ease-in-out flex items-center justify-center rounded-3xl p-2 md:py-2 px-10"
         >
-            <img class="w-[5rem]" src="/img/bsky.svg" alt="Bluesky" />
+            <img class="w-16" src="/img/bsky.svg" alt="Bluesky" />
         </a>
         <a
             href="https://www.printables.com/@RepRaptor"
             class="bg-accent hover:bg-[#ed6c21] hover:scale-110 transition-all duration-500 ease-in-out flex items-center justify-center rounded-3xl p-2 md:py-2 px-10"
         >
-            <img class="w-[5rem]" src="/img/pbls.svg" alt="Prusa Printables" />
+            <img class="w-16" src="/img/pbls.svg" alt="Prusa Printables" />
         </a>
         <a
             href="https://www.roblox.com/users/154455607/profile"
             class="bg-accent hover:bg-[#335fff] hover:scale-110 transition-all duration-500 ease-in-out flex items-center justify-center rounded-3xl p-2 md:py-2 px-10"
         >
-            <img class="w-[5rem]" src="/img/rbx.svg" alt="Roblox" />
+            <img class="w-16" src="/img/rbx.svg" alt="Roblox" />
         </a>
         <a
             href="https://github.com/Watrmeln/"
             class="bg-accent hover:bg-[#3c1e70] hover:scale-110 transition-all duration-500 ease-in-out flex items-center justify-center rounded-3xl p-2 md:py-2 px-10"
         >
-            <img class="w-[5rem]" src="/img/guthib.svg" alt="GitHub" />
+            <img class="w-16" src="/img/guthib.svg" alt="GitHub" />
         </a>
         <a
             href="https://www.xbox.com/en-US/play/user/Watrmeln5420"
             class="bg-accent hover:bg-[#107b10] hover:scale-110 transition-all duration-500 ease-in-out flex items-center justify-center rounded-3xl p-2 md:py-2 px-10"
         >
-            <img class="w-[5rem]" src="/img/xb.svg" alt="Xbox" />
+            <img class="w-16" src="/img/xb.svg" alt="Xbox" />
         </a>
     </div>
 </div>
