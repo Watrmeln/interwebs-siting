@@ -171,5 +171,10 @@
             alt="railsandrailsandrails video thumbnail"
             class="w-150"
         />
+                <img
+            src="/img/gdsection/tapp-front.png"
+            alt="fictional tapp farecard (this was before path did it haha)"
+            class="w-100"
+        />
     </div>
 </div>

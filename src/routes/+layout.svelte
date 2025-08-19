@@ -3,11 +3,16 @@
 	import favicon from "$lib/assets/iconbleton.png";
 
 	let { children } = $props();
-	const year = new Date().getFullYear()
+	const year = new Date().getFullYear();
 </script>
 
 <svelte:head>
-    <link rel="icon" href={favicon} />
+	<link rel="icon" href={favicon} />
+	<meta content="watrmeln!!!" property="og:title" />
+	<meta content="this is my website i think its pretty cool" property="og:description" />
+	<meta content="https://watrmeln.pages.dev/" property="og:url" />
+	<meta content="/img/jumbcube.gif" property="og:image" />
+	<meta content="#4FBF00" data-react-helmet="true" name="theme-color" />
 </svelte:head>
 
 <div
@@ -36,7 +41,7 @@
 				href="/"
 				class="bg-primary flex items-center justify-center rounded-3xl md:rounded-xl p-2 md:py-2 md:px-16 hover:bg-psurface hover:scale-110 transition-all duration-300 ease-in-out"
 			>
-				<img class="h-9 " src="/img/abt.svg" alt="About Me" />
+				<img class="h-9" src="/img/abt.svg" alt="About Me" />
 			</a>
 			<a
 				href="/socials"
@@ -56,10 +61,11 @@
 
 {@render children?.()}
 
-
-<footer 
-	class="bg-accent min-h-[4rem] border-t-5 border-asurface mt-[5rem] py-4 flex flex-col items-center justify-center"
+<footer
+	class="bg-accent min-h-[4rem] border-t-5 border-asurface mt-[5rem] py-4 flex flex-col items-center justify-center text-pretty"
 >
-<span class="text-primary text-xl">&copy;{year} Watrmeln/Justin S, site version 1.01</span>
-<span class="text-primary text-sm">thanks for stopping in ;)</span>
+	<span class="text-primary text-xl"
+		>&copy;{year} Watrmeln/Justin S, site version 1.02</span
+	>
+	<span class="text-primary text-sm">thanks for stopping in ;)</span>
 </footer>
