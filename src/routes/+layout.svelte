@@ -9,7 +9,10 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 	<meta content="watrmeln!!!" property="og:title" />
-	<meta content="this is my website i think its pretty cool" property="og:description" />
+	<meta
+		content="this is my website i think its pretty cool"
+		property="og:description"
+	/>
 	<meta content="https://watrmeln.pages.dev/" property="og:url" />
 	<meta content="/img/jumbcube.gif" property="og:image" />
 	<meta content="#4FBF00" data-react-helmet="true" name="theme-color" />
@@ -20,11 +23,13 @@
 >
 	<div class="flex flex-col gap-3 items-center justify-center">
 		<div class="flex flex-col md:flex-row items-center">
-			<img
-				class="h-40 pr-5 hover:scale-150 transition-transform duration-1000 ease-in-out"
-				src="/img/jumbcube.gif"
-				alt="i be spinnin weeeeeeee"
-			/>
+			<a href="/">
+				<img
+					class="h-40 pr-5 hover:scale-150 transition-transform duration-1000 ease-in-out"
+					src="/img/jumbcube.gif"
+					alt="i be spinnin weeeeeeee"
+				/>
+			</a>
 			<div class="text-center pr-5">
 				<h1 class="text-5xl md:text-7xl leading-[3rem]">
 					<span class="font-extrabold">Watrmeln</span>'s
@@ -65,7 +70,7 @@
 	class="bg-accent min-h-[4rem] border-t-5 border-asurface mt-[5rem] py-4 flex flex-col items-center justify-center text-pretty"
 >
 	<span class="text-primary text-xl"
-		>&copy;{year} Watrmeln/Justin S, site version 1.02</span
+		>&copy;{year} Watrmeln/Justin S, site version 1.03</span
 	>
 	<span class="text-primary text-sm">thanks for stopping in ;)</span>
 </footer>
