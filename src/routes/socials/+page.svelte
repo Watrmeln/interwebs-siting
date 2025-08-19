@@ -22,7 +22,7 @@
             <img class="w-16" src="/img/yt.svg" alt="YouTube" />
         </a>
         <a
-            href="https://bsky.app/profile/watrmeln.bsky.social"
+            href="https://bsky.app/profile/watrmeln.dev"
             class="bg-accent hover:bg-[#0085ff] hover:scale-110 transition-all duration-500 ease-in-out flex items-center justify-center rounded-3xl p-2 md:py-2 px-10"
         >
             <img class="w-16" src="/img/bsky.svg" alt="Bluesky" />
