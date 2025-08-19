@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>watrmeln's portfolio</title>
+</svelte:head>
+
 <div
     class="border-accent border-7 rounded-[7vw] mt-10 mx-[15vw] w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
 >
