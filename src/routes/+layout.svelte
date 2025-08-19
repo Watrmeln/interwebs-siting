@@ -60,6 +60,6 @@
 <footer 
 	class="bg-accent min-h-[4rem] border-t-5 border-asurface mt-[5rem] py-4 flex flex-col items-center justify-center"
 >
-<span class="text-primary text-xl">&copy;{year} Watrmeln/Justin S, site version 1.0</span>
+<span class="text-primary text-xl">&copy;{year} Watrmeln/Justin S, site version 1.01</span>
 <span class="text-primary text-sm">thanks for stopping in ;)</span>
 </footer>

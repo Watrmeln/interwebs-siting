@@ -1,13 +1,16 @@
 <svelte:head>
-	<title>watrmeln's socials</title>
+    <title>watrmeln's socials</title>
 </svelte:head>
 
 <div
     class="border-accent border-7 rounded-[7vw] mt-10 mx-[15vw] w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
 >
-    <h1 class="leading-[4rem]">
+    <h1 class="">
         <span class="font-extrabold text-5xl text-accent">Social Links</span>
     </h1>
+    <h2 class="my-10 text-accent text-2xl font-medium leading-[2rem]">
+        Find me here, there, everywhere! <i>(not in real life preferably)</i>
+    </h2>
 
     <div
         class="flex flex-col lg:flex-row gap-3 md:gap-7 items-center justify-center pt-5 md:pt-0"
