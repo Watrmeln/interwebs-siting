@@ -60,7 +60,7 @@
             </h2>
             <p class="text-xl leading-none">
                 My transit videography project. Snappy editing meets music meet
-                a manner of trains and buses. Produced from 2024 onwards. One
+                a manner of trains and buses. Produced from 2023 onwards. One
                 work on display at the National Capital Trolley Museum!
             </p>
             <a
