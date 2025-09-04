@@ -70,7 +70,7 @@
 	class="bg-accent min-h-[4rem] border-t-5 border-asurface mt-[5rem] py-4 flex flex-col items-center justify-center text-pretty"
 >
 	<span class="text-primary text-xl"
-		>&copy;{year} Watrmeln/Justin S, site version 1.03</span
+		>&copy;{year} Watrmeln/Justin S, site version 1.04</span
 	>
-	<span class="text-primary text-sm">thanks for stopping in ;)</span>
+	span class="text-primary text-sm">thanks for stopping in ;)</span>
 </footer>
