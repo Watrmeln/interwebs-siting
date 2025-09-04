@@ -1,6 +1,6 @@
 <script>
 	import "../app.css";
-	import favicon from "$lib/assets/iconbleton.png";
+	import favicon from "$lib/assets/iconbleton.ico";
 
 	let { children } = $props();
 	const year = new Date().getFullYear();
