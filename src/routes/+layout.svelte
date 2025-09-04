@@ -72,5 +72,5 @@
 	<span class="text-primary text-xl"
 		>&copy;{year} Watrmeln/Justin S, site version 1.04</span
 	>
-	span class="text-primary text-sm">thanks for stopping in ;)</span>
+	<span class="text-primary text-sm">thanks for stopping in ;)</span>
 </footer>
