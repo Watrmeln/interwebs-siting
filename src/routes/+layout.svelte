@@ -2,7 +2,7 @@
 	import "../app.css";
 	import favicon from "$lib/assets/iconbleton.ico";
 
-	let { children } = $props();
+	let { children, data } = $props();
 	const year = new Date().getFullYear();
 </script>
 
@@ -13,7 +13,7 @@
 		content="this is my website i think its pretty cool"
 		property="og:description"
 	/>
-	<meta content="https://watrmeln.pages.dev/" property="og:url" />
+	<meta content="https://watrmeln.dev/" property="og:url" />
 	<meta content="/img/jumbcube.gif" property="og:image" />
 	<meta content="#4FBF00" data-react-helmet="true" name="theme-color" />
 </svelte:head>
@@ -70,7 +70,7 @@
 	class="bg-accent min-h-[4rem] border-t-5 border-asurface mt-[5rem] py-4 flex flex-col items-center justify-center text-pretty"
 >
 	<span class="text-primary text-xl"
-		>&copy;{year} Watrmeln/Justin S, site version 1.04</span
+		>&copy;{year} Watrmeln/Justin S, site version <a class="underline" href="/changelog">1.1</a></span
 	>
 	<span class="text-primary text-sm">thanks for stopping in ;)</span>
 </footer>

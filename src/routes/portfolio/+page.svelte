@@ -1,8 +1,14 @@
+<script>
+    import { slide } from "svelte/transition";
+</script>
+
 <svelte:head>
-	<title>watrmeln's portfolio</title>
+    <title>watrmeln's portfolio</title>
 </svelte:head>
 
 <div
+    in:slide={{ duration: 300, delay: 400 }}
+    out:slide={{ duration: 300 }}
     class="border-accent border-7 rounded-[7vw] mt-10 mx-[15vw] w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
 >
     <h1 class="leading-[4rem]">
@@ -171,7 +177,7 @@
             alt="railsandrailsandrails video thumbnail"
             class="w-150"
         />
-                <img
+        <img
             src="/img/gdsection/tapp-front.png"
             alt="fictional tapp farecard (this was before path did it haha)"
             class="w-100"

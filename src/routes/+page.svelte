@@ -1,8 +1,14 @@
+<script>
+    import { slide } from "svelte/transition";
+</script>
+
 <svelte:head>
-	<title>watrmeln's wonderful website on the world wide web</title>
+    <title>watrmeln's wonderful website on the world wide web</title>
 </svelte:head>
 
 <div
+    in:slide={{ duration: 300, delay: 400 }}
+    out:slide={{ duration: 300 }}
     class="border-accent border-7 rounded-[7vw] mt-10 mx-[15vw] w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
 >
     <h1 class="leading-[4rem]">
@@ -47,10 +53,8 @@
             class="h-13 inline"
             src="/img/autism moment.svg"
             alt="Austistic"
-        /><img
-            class="h-13 inline"
-            src="/img/men.svg"
-            alt="Male"
-        /><span class="emoji">🚉📸🚲🖥🇺🇸</span>
+        /><img class="h-13 inline" src="/img/men.svg" alt="Male" /><span
+            class="emoji">🚉📸🚲🖥🇺🇸</span
+        >
     </h1>
 </div>

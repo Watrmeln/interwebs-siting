@@ -1,12 +1,15 @@
+<script>
+    import { page } from "$app/state";
+    import { slide } from "svelte/transition";
+</script>
+
 <head>
     <title>watrmeln's error page</title>
 </head>
 
-<script>
-	import { page } from '$app/state';
-</script>
-
 <div
+    in:slide={{ duration: 300, delay: 400 }}
+    out:slide={{ duration: 300 }}
     class="border-accent border-7 rounded-[7vw] mt-10 mx-[15vw] w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
 >
     <h1 class="">
