@@ -1,9 +1,20 @@
 <script>
 	import "../app.css";
 	import favicon from "$lib/assets/iconbleton.ico";
+	import { touchEndEvent } from "@tsparticles/engine";
 
 	let { children, data } = $props();
-	const year = new Date().getFullYear();
+
+	let dte = new Date();
+	const year = dte.getFullYear();
+	const curMo = dte.getMonth();
+	const curDay = dte.getDate();
+	const isBday = (curMo === 9 && curDay === 27 && true) || false;
+
+	console.log(isBday);
+
+	const jumbSrc = (isBday === true && "/img/partybleton.gif") || "/img/jumbcube.gif";
+	
 </script>
 
 <svelte:head>
@@ -14,7 +25,7 @@
 		property="og:description"
 	/>
 	<meta content="https://watrmeln.dev/" property="og:url" />
-	<meta content="/img/jumbcube.gif" property="og:image" />
+	<meta content={jumbSrc} property="og:image" />
 	<meta content="#4FBF00" data-react-helmet="true" name="theme-color" />
 </svelte:head>
 
@@ -25,8 +36,9 @@
 		<div class="flex flex-col md:flex-row items-center">
 			<a href="/">
 				<img
+					id="spinJumb"
 					class="h-40 pr-5 hover:scale-150 transition-transform duration-1000 ease-in-out"
-					src="/img/jumbcube.gif"
+					src={jumbSrc}
 					alt="i be spinnin weeeeeeee"
 				/>
 			</a>
@@ -70,7 +82,8 @@
 	class="bg-accent min-h-[4rem] border-t-5 border-asurface mt-[5rem] py-4 flex flex-col items-center justify-center text-pretty"
 >
 	<span class="text-primary text-xl"
-		>&copy;{year} Watrmeln/Justin S, site version <a class="underline" href="/changelog">1.1</a></span
+		>&copy;{year} Watrmeln/Justin S, site version
+		<a class="underline" href="/changelog">1.1</a></span
 	>
 	<span class="text-primary text-sm">thanks for stopping in ;)</span>
 </footer>
