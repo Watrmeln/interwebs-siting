@@ -1,7 +1,6 @@
 <script>
 	import "../app.css";
 	import favicon from "$lib/assets/iconbleton.ico";
-	import { touchEndEvent } from "@tsparticles/engine";
 
 	let { children, data } = $props();
 
