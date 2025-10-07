@@ -71,6 +71,12 @@
 			>
 				<img class="h-9" src="/img/portfolio.svg" alt="Portfolio" />
 			</a>
+						<a
+				href="/triplogs"
+				class="bg-primary flex items-center justify-center rounded-3xl md:rounded-xl p-2 md:py-2 md:px-16 hover:bg-psurface hover:scale-110 transition-all duration-300 ease-in-out"
+			>
+				<img class="h-9" src="/img/trips.svg" alt="Trip Logs" />
+			</a>
 		</div>
 	</div>
 </div>
@@ -78,11 +84,11 @@
 {@render children?.()}
 
 <footer
-	class="bg-accent min-h-[4rem] border-t-5 border-asurface mt-[5rem] py-4 flex flex-col items-center justify-center text-pretty"
+	class="sticky -bottom-[4rem] bg-accent min-h-[4rem] border-t-5 border-asurface mt-[5rem] py-4 flex flex-col items-center justify-center text-pretty"
 >
 	<span class="text-primary text-xl"
 		>&copy;{year} Watrmeln/Justin S, site version
-		<a class="underline" href="/changelog">1.1</a></span
+		<a class="underline" href="/changelog">1.2</a></span
 	>
 	<span class="text-primary text-sm">thanks for stopping in ;)</span>
 </footer>

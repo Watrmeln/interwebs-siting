@@ -20,6 +20,22 @@
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div
+            class="p-10 rounded-[2rem] text-left border-accent border-5 rounded-[5vw] text-accent"
+        >
+            <span class="italic font-extrabold text-4xl">1.2</span>
+
+            <li class="ml-5 font-medium text-xl">Added trip logs page</li>
+            <li class="ml-5 font-medium text-xl">
+                Added trip log button to header
+            </li>
+            <li class="ml-5 font-medium text-xl">
+                made color from footer stick out ever so slightly
+            </li>
+            <li class="ml-5 font-medium text-xl">
+                installed svelte enhanced img library
+            </li>
+        </div>
 
         <div
             class="p-10 rounded-[2rem] text-left border-accent border-5 rounded-[5vw] text-accent"
@@ -33,7 +49,8 @@
                 Added page transitioning (slidy bits!)
             </li>
             <li class="ml-5 font-medium text-xl">
-                made embed redirect to custom domain instead of cloudflare workers page
+                made embed redirect to custom domain instead of cloudflare
+                workers page
             </li>
         </div>
 
@@ -87,7 +104,7 @@
             </li>
         </div>
 
-            <div
+        <div
             class="p-10 rounded-[2rem] text-left border-accent border-5 rounded-[5vw] text-accent"
         >
             <span class="italic font-extrabold text-4xl">1.0</span>
@@ -96,6 +113,5 @@
                 released website @ watrmeln.dev :D
             </li>
         </div>
-
     </div>
 </div>
