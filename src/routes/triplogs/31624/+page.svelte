@@ -113,6 +113,13 @@
                     <td>Grand Central</td>
                     <td><i>Raced R62A signed as a (7).</i></td>
                 </tr>
+                <tr>
+                    <td>MNR</td>
+                    <td>New Haven</td>
+                    <td>M8 9368</td>
+                    <td>Grand Central</td>
+                    <td>Fairfield Metro</td>
+                </tr>
             </tbody>
         </table>
     </div>
