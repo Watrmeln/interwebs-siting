@@ -29,7 +29,7 @@
             or <span class="font-semibold">Jumbleton</span>
             <span class="italic">(jumble for short)</span> across the web.
             <br /><br />
-            I’m a bit of an amateur photographer, my camera roll is FLOODED with
+            I’m a bit of an overthinker, an amateur photographer, my camera roll is FLOODED with
             <span class="font-semibold">trains and buses</span>, and the
             occasional nature picture. I own 2 3D printers
             <i>(Ender 3 V2/Prusa MK4S)</i>, and also a tiny keyboard for

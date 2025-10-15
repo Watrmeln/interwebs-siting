@@ -10,8 +10,6 @@
 	const curDay = dte.getDate();
 	const isBday = (curMo === 9 && curDay === 27 && true) || false;
 
-	console.log(isBday);
-
 	const jumbSrc = (isBday === true && "/img/partybleton.gif") || "/img/jumbcube.gif";
 	
 </script>

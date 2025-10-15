@@ -48,11 +48,29 @@
         >
             <span>October 12, 2024</span>
         </a>
-                <a
+        <a
             href="/triplogs/102624"
             class="w-[40vw] p-3 bg-accent rounded-full enter text-primary font-bold text-2xl items-center hover:bg-asurface hover:scale-110 transition-all duration-300 ease-out"
         >
             <span>October 26, 2024</span>
+        </a>
+        <a
+            href="/triplogs/112324"
+            class="w-[40vw] p-3 bg-accent rounded-full enter text-primary font-bold text-2xl items-center hover:bg-asurface hover:scale-110 transition-all duration-300 ease-out"
+        >
+            <span>November 23, 2024</span>
+        </a>
+        <a
+            href="/triplogs/3925"
+            class="w-[40vw] p-3 bg-accent rounded-full enter text-primary font-bold text-2xl items-center hover:bg-asurface hover:scale-110 transition-all duration-300 ease-out"
+        >
+            <span>March 9, 2025</span>
+        </a>
+        <a
+            href="/triplogs/32225"
+            class="w-[40vw] p-3 bg-accent rounded-full enter text-primary font-bold text-2xl items-center hover:bg-asurface hover:scale-110 transition-all duration-300 ease-out"
+        >
+            <span>March 22, 2025</span>
         </a>
     </div>
 </div>
