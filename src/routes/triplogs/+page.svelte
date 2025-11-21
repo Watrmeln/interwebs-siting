@@ -72,5 +72,17 @@
         >
             <span>March 22, 2025</span>
         </a>
+        <a
+            href="/triplogs/32229"
+            class="w-[40vw] p-3 bg-accent rounded-full enter text-primary font-bold text-2xl items-center hover:bg-asurface hover:scale-110 transition-all duration-300 ease-out"
+        >
+            <span>March 29, 2025</span>
+        </a>
+        <a
+            href="/triplogs/dc"
+            class="w-[40vw] p-3 bg-accent rounded-full enter text-primary font-bold text-2xl items-center hover:bg-asurface hover:scale-110 transition-all duration-300 ease-out"
+        >
+            <span>my entire washington dc trip</span>
+        </a>
     </div>
 </div>

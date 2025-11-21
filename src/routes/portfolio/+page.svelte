@@ -69,10 +69,7 @@
                 a manner of trains and buses. Produced from 2023 onwards. One
                 work on display at the National Capital Trolley Museum!
             </p>
-            <a
-                href="https://youtube.com/@railsand"
-                class="mt-3 inline-block"
-            >
+            <a href="https://youtube.com/@railsand" class="mt-3 inline-block">
                 Watch &rarr;
             </a>
         </div>
@@ -181,6 +178,26 @@
             src="/img/gdsection/tapp-front.png"
             alt="fictional tapp farecard (this was before path did it haha)"
             class="w-100"
+        />
+        <img
+            src="/img/gdsection/clplate.png"
+            alt="fictional license plate for the province of centell"
+            class="w-100"
+        />
+        <img
+            src="/img/gdsection/halsonmap-01.png"
+            alt="map for the fictional country of Halson"
+            class="w-250"
+        />
+        <img
+            src="/img/gdsection/ccmap-01.png"
+            alt="map for CenterConnect's future plans (fictional again)"
+            class="w-100"
+        />
+        <img
+            src="/img/gdsection/hmcmap.png"
+            alt="map of the hmc centell region services"
+            class="w-80"
         />
     </div>
 </div>
