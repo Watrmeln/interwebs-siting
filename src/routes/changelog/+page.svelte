@@ -14,14 +14,23 @@
     <h1 class="">
         <span class="font-extrabold text-5xl text-accent">Site changelog!</span>
     </h1>
-    <h2 class="my-10 text-accent text-2xl font-medium leading-[2rem]">
+    <h2 class="my-10 text-accent text-2xl font-medium leading-8">
         Sometimes I update the site! Here's a log of what I did in each
         (somewhat major) update.
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div
-            class="p-10 rounded-[2rem] text-left border-accent border-5 rounded-[5vw] text-accent"
+            class="p-10 text-left border-accent border-5 rounded-[5vw] text-accent"
+        >
+            <span class="italic font-extrabold text-4xl">1.3</span>
+
+            <li class="ml-5 font-medium text-xl">Made top icon change on every load, not every build</li>
+            <li class="ml-5 font-medium text-xl">Added bottom flavor text for funsies</li>
+        </div>
+
+        <div
+            class="p-10 text-left border-accent border-5 rounded-[5vw] text-accent"
         >
             <span class="italic font-extrabold text-4xl">1.2</span>
 
@@ -38,7 +47,7 @@
         </div>
 
         <div
-            class="p-10 rounded-[2rem] text-left border-accent border-5 rounded-[5vw] text-accent"
+            class="p-10 text-left border-accent border-5 rounded-[5vw] text-accent"
         >
             <span class="italic font-extrabold text-4xl">1.1</span>
 
@@ -55,7 +64,7 @@
         </div>
 
         <div
-            class="p-10 rounded-[2rem] text-left border-accent border-5 rounded-[5vw] text-accent"
+            class="p-10 text-left border-accent border-5 rounded-[5vw] text-accent"
         >
             <span class="italic font-extrabold text-4xl">1.04</span>
 

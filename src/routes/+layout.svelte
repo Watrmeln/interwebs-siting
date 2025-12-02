@@ -1,17 +1,39 @@
 <script>
+	let { children, data } = $props();
 	import "../app.css";
 	import favicon from "$lib/assets/iconbleton.ico";
+	import { onMount } from "svelte";
 
-	let { children, data } = $props();
+	let jumbSrc = $state("/img/jumbcube.gif");
 
-	let dte = new Date();
-	const year = dte.getFullYear();
-	const curMo = dte.getMonth();
-	const curDay = dte.getDate();
-	const isBday = (curMo === 9 && curDay === 27 && true) || false;
+	let year = $state(0);
 
-	const jumbSrc = (isBday === true && "/img/partybleton.gif") || "/img/jumbcube.gif";
-	
+	const sillyQuotes = [
+		"ask questions!! dont be self conscious",
+		"the fitnessgram pacer te",
+		"but i stay silly",
+		"ned lamont",
+		"BAD DEALS! CARS THAT BREAK DOWN!",
+		"did you remember to thaw the chicken?",
+		"First impressions are everything, so i've probably already messed up.",
+		"BACCCCKKKKKKK DOOOOORRRR",
+		"snyders sourdough hard pretzels......",
+		"i.o.u. 1x flavor text",
+		"rotate a cow in your mind. trust."
+	];
+
+	let quote = $state(0);
+
+	onMount(() => {
+		let dte = new Date();
+		year = dte.getFullYear();
+		const curMo = dte.getMonth();
+		const curDay = dte.getDate();
+		const isBday = (curMo === 9 && curDay === 27 && true) || false;
+		jumbSrc = (isBday === true && "/img/partybleton.gif") || "/img/jumbcube.gif";
+		const leng = sillyQuotes.length;
+		quote = sillyQuotes[Math.floor(Math.random()*leng)];
+	});
 </script>
 
 <svelte:head>
@@ -40,7 +62,7 @@
 				/>
 			</a>
 			<div class="text-center pr-5">
-				<h1 class="text-5xl md:text-7xl leading-[3rem]">
+				<h1 class="text-5xl md:text-7xl leading-12">
 					<span class="font-extrabold">Watrmeln</span>'s
 				</h1>
 				<h3 class="text-sm md:text-xl tracking-tight">
@@ -69,7 +91,7 @@
 			>
 				<img class="h-9" src="/img/portfolio.svg" alt="Portfolio" />
 			</a>
-						<a
+			<a
 				href="/triplogs"
 				class="bg-primary flex items-center justify-center rounded-3xl md:rounded-xl p-2 md:py-2 md:px-16 hover:bg-psurface hover:scale-110 transition-all duration-300 ease-in-out"
 			>
@@ -82,11 +104,14 @@
 {@render children?.()}
 
 <footer
-	class="sticky -bottom-[4rem] bg-accent min-h-[4rem] border-t-5 border-asurface mt-[5rem] py-4 flex flex-col items-center justify-center text-pretty"
+	class="sticky -bottom-25 bg-accent min-h-16 border-t-5 border-asurface mt-20 py-4 flex flex-col items-center justify-center text-pretty"
 >
 	<span class="text-primary text-xl"
 		>&copy;{year} Watrmeln/Justin S, site version
-		<a class="underline" href="/changelog">1.2</a></span
+		<a class="underline" href="/changelog">1.3</a></span
 	>
 	<span class="text-primary text-sm">thanks for stopping in ;)</span>
+	<span class="text-primary text-lg opacity-70"><i><b>
+	<span class = "fancy lowercase">"{quote}"</span>
+	</b></i></span>
 </footer>
