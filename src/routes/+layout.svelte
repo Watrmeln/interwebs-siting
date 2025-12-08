@@ -19,7 +19,10 @@
 		"BACCCCKKKKKKK DOOOOORRRR",
 		"snyders sourdough hard pretzels......",
 		"i.o.u. 1x flavor text",
-		"rotate a cow in your mind. trust."
+		"rotate a cow in your mind. trust.",
+		"you wouldn't put cocktail sausages in your smoke alarm...",
+		"an absolute clownshow, admittedly",
+		"i like food"
 	];
 
 	let quote = $state(0);
