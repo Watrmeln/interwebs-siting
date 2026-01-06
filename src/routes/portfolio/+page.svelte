@@ -199,5 +199,10 @@
             alt="map of the hmc centell region services"
             class="w-80"
         />
+        <img
+            src="/img/gdsection/citycard-01.png"
+            alt="cmtd citycard (fictional)"
+            class="w-65"
+        />
     </div>
 </div>
