@@ -111,7 +111,7 @@
 >
 	<span class="text-primary text-xl"
 		>&copy;{year} Watrmeln/Justin S, site version
-		<a class="underline" href="/changelog">1.3</a></span
+		<a class="underline" href="/changelog">1.3.1</a></span
 	>
 	<span class="text-primary text-sm">thanks for stopping in ;)</span>
 	<span class="text-primary text-lg opacity-70"><i><b>
