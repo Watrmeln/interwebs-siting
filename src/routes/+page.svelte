@@ -39,7 +39,7 @@
             <span class="font-semibold"
                 >walkable spaces and bike infrastructure</span
             >
-            within my community. My passion for urbanism has led me
+            within my community. My passion for all these things <a href="/the_list"><u>and more</u></a> has led me
             <span class="font-semibold">many places</span>, led me to make
             <span class="font-semibold">many things</span>, and led me to meet
             <span class="font-semibold">many people.</span>
