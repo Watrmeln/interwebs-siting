@@ -84,6 +84,9 @@
         <li>Going new places</li>
         <li>Making pilgrimages to internet places</li>
         <li>Existentialism</li>
+        <li>Obscure, Unorthodox, and Unenforced laws.</li>
+        <li>Reading too much into things</li>
+        <li>Synthesizers</li>
         And most importantly,
         <li class="font-bold">All that I cannot have.</li>
     </ul>
