@@ -23,12 +23,25 @@
         <div
             class="p-10 text-left border-accent border-5 rounded-[5vw] text-accent"
         >
+            <span class="italic font-extrabold text-4xl">1.4</span>
+
+            <li class="ml-5 font-medium text-xl">
+                added the <a href="/the_list"><u>list of things</u></a>
+            </li>
+        </div>
+        <div
+            class="p-10 text-left border-accent border-5 rounded-[5vw] text-accent"
+        >
             <span class="italic font-extrabold text-4xl">1.3.1</span>
 
             <li class="ml-5 font-medium text-xl">
                 added an 88x31 to the files, here it is!
             </li>
-            <img src = "/img/88x31.png" alt="an 88x31 that says watrmeln.dev" class ="rounded-lg mt-2 w-1em">
+            <img
+                src="/img/88x31.png"
+                alt="an 88x31 that says watrmeln.dev"
+                class="rounded-lg mt-2 w-1em"
+            />
         </div>
         <div
             class="p-10 text-left border-accent border-5 rounded-[5vw] text-accent"
