@@ -114,6 +114,11 @@
             alt="TransitLiton logo"
             class="w-20"
         />
+        <img
+            src="/img/gdsection/npmb.png"
+            alt="NPMB Logo, another fictional transit agency"
+            class="w-30"
+        />
         <br />
     </div>
     <div
@@ -203,6 +208,16 @@
             src="/img/gdsection/citycard-01.png"
             alt="cmtd citycard (fictional)"
             class="w-65"
+        />
+        <img
+            src="/img/gdsection/mnmap.png"
+            alt="move naverin map (fictional)"
+            class="w-150"
+        />
+        <img
+            src="/img/gdsection/morgantown map-01.png"
+            alt="map for morgantown prt line"
+            class="w-65 border-2 border-accent"
         />
     </div>
 </div>
