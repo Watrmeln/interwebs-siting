@@ -210,8 +210,8 @@
             class="w-65"
         />
         <img
-            src="/img/gdsection/mnmap.png"
-            alt="move naverin map (fictional)"
+            src="/img/gdsection/loughallmap.png"
+            alt="loughall rapid transit map (fictional)"
             class="w-150"
         />
         <img

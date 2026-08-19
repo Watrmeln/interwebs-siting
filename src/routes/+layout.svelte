@@ -107,7 +107,7 @@
 {@render children?.()}
 
 <footer
-	class="sticky -bottom-25 bg-accent min-h-16 border-t-5 border-asurface mt-20 py-4 flex flex-col items-center justify-center text-pretty"
+	class="sticky -bottom-26 bg-accent min-h-16 border-t-5 border-asurface mt-20 py-4 flex flex-col items-center justify-center text-pretty"
 >
 	<span class="text-primary text-xl"
 		>&copy;{year} Watrmeln/Justin S, site version
