@@ -9,7 +9,7 @@
 <div
     in:slide={{ duration: 300, delay: 400 }}
     out:slide={{ duration: 300 }}
-    class="border-accent border-7 rounded-[7vw] mt-10 mx-[15vw] w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
+    class="border-accent border-7 rounded-[7vw] mt-10 mx-[5vw] md:mx-[15vw] w-[90vw] md:w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
 >
     <h1 class="">
         <span class="font-extrabold text-5xl text-accent">Social Links</span>
@@ -19,7 +19,7 @@
     </h2>
 
     <div
-        class="gap-3 md:gap-7 pt-5 md:pt-0 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6"
+        class="gap-5 md:gap-7 pt-5 md:pt-0 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6"
     >
         <a
             href="https://www.youtube.com/@railsand"

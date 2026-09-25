@@ -9,7 +9,7 @@
 <div
     in:slide={{ duration: 300, delay: 400 }}
     out:slide={{ duration: 300 }}
-    class="border-accent border-7 rounded-[7vw] mt-10 mx-[15vw] w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
+    class="border-accent border-7 rounded-[7vw] mt-10 mx-[5vw] md:mx-[15vw] w-[90vw] md:w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
 >
     <h1 class="">
         <span class="font-extrabold text-5xl text-accent">Site changelog!</span>
@@ -20,6 +20,18 @@
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div
+            class="p-10 text-left border-accent border-5 rounded-[5vw] text-accent"
+        >
+            <span class="italic font-extrabold text-4xl">1.5</span>
+
+            <li class="ml-5 font-medium text-xl">
+                Made site a little wider on mobile
+            </li>
+            <li class="ml-5 font-medium text-xl">
+                Updated a few packages
+            </li>
+        </div>
         <div
             class="p-10 text-left border-accent border-5 rounded-[5vw] text-accent"
         >

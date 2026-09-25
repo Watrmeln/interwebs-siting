@@ -9,7 +9,7 @@
 <div
     in:slide={{ duration: 300, delay: 400 }}
     out:slide={{ duration: 300 }}
-    class="border-accent border-7 rounded-[7vw] mt-10 mx-[15vw] w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
+    class="border-accent border-7 rounded-[7vw] mt-10 mx-[5vw] md:mx-[15vw] w-[90vw] md:w-[70vw] px-[3vw] py-[5vh] inline-block text-center"
 >
     <h1 class="">
         <span class="font-extrabold text-5xl text-accent">The List</span>
