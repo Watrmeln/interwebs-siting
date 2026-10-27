@@ -48,7 +48,7 @@
         <span class="text-accent text-2xl font-extrabold"> In Short, </span>
     </h2>
     <h1 class="serif font-bold text-4xl text-accent tracking-tight">
-        16,
+        17,
         <img
             class="h-13 inline"
             src="/img/autism moment.svg"
